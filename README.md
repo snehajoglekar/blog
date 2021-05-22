@@ -7,34 +7,34 @@ Email : snehajoglekar123@gmail.com
 
 Task given for NOde.js Fulltime Developer :
 
-1.	There are Users and Blogs, and any user can comment on any blog.
-2.	Create a database with sample data, use the database of your choice.
-3.	Consider all users who have commented on the same blog as friends ( 1st level friend).
-4.	A friend is 2nd level friend if he has commented on a blog where a 1st level friend has     also commented but has not commented on any common blog.
-5.	Example - Blog1 has the comment of {User1, User2}, Blog2 has the comment of {User1, User3} here User2 and User3 are 2nd level friend if there exists no blog which has the comment of User2 and User3.
-6.	Similar to above there can be third level friend and k-th level friend ( LinkedIn shows this kind of friend level)
-7.	Create a REST api GET /users/<userId>/level/<levelNo> which should give list of all friends of that level for given userId (ex- /users/1234/level/1 for first level friend)
-8.	Use high standard design principles while implementing the solution
-9.	Write modular and clean code with comments keeping in mind scalability and manageability of code.
+            1.	There are Users and Blogs, and any user can comment on any blog.
+            2.	Create a database with sample data, use the database of your choice.
+            3.	Consider all users who have commented on the same blog as friends ( 1st level friend).
+            4.	A friend is 2nd level friend if he has commented on a blog where a 1st level friend has     also commented but has not commented on any common blog.
+            5.	Example - Blog1 has the comment of {User1, User2}, Blog2 has the comment of {User1, User3} here User2 and User3 are 2nd level friend if there exists no blog                   which has the comment of User2 and User3.
+            6.	Similar to above there can be third level friend and k-th level friend ( LinkedIn shows this kind of friend level)
+            7.	Create a REST api GET /users/<userId>/level/<levelNo> which should give list of all friends of that level for given userId (ex- /users/1234/level/1 for                       first level friend)
+            8.	Use high standard design principles while implementing the solution
+            9.	Write modular and clean code with comments keeping in mind scalability and manageability of code.
 
 
-1. Introduction
+INTRODUCTION : 
 It is a single webpage for blog, Given theme of Nature and Travelling where various users can comment on any blog and their degree Connections (1st, 2nd, 3rd,  nth) with connectivity of database with angular version and firebase.
 
 
-2. Methodology, Tools, and Techniques
-      Angular CLI: 10.2.0
-      Angular: 10.2.4
-      Typescript: 4.0.7
-      Node: 15.0.1
-      IDE Used : Visual Studio Code
-      Database Used : Firebase
+TECHNOLOGIES USED
+     1. Angular CLI: 10.2.0 
+     2. Angular: 10.2.4 
+     3. Typescript: 4.0.7 
+     4. Node: 15.0.1 
+     5. IDE Used : Visual Studio Code 
+     6. Database Used : Firebase 
 
 
 3. Brief Description:
       As “Angular, TypeScript, Firebase learnt from Scratch, It is not a fully functional web page but responsive page with connected database. Inserting  data into database       and retrieving data from database is working smoothly, Also, it is showing Degree connections in Users.
 
-Note : Task is not fully achieved, Application is not fully working as per the task given, Partially it is done and giving the degree level between users
+NOTE : Task is not fully achieved, Application is not fully working as per the task given, Partially it is done and giving the degree level between users
   
   
 
