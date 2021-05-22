@@ -23,12 +23,12 @@ It is a single webpage for blog, Given theme of Nature and Travelling where vari
 
 
 METHODOLOGY, TOOLS, TECHNOLOGIES USED :
-      Angular CLI: 10.2.0
-      Angular: 10.2.4
-      Typescript: 4.0.7
-      Node: 15.0.1
-      IDE Used : Visual Studio Code
-      Database Used : Firebase
+     1. Angular CLI: 10.2.0
+     2. Angular: 10.2.4
+     3. Typescript: 4.0.7
+     4. Node: 15.0.1
+     5. IDE Used : Visual Studio Code
+     6. Database Used : Firebase
 
 
 BRIEF DESCRIPTION:
