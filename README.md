@@ -31,14 +31,14 @@ TECHNOLOGIES USED
      6. Database Used : Firebase 
 
 
-3. Brief Description:
+BRIEF DESCRIPTION : 
       As “Angular, TypeScript, Firebase learnt from Scratch, It is not a fully functional web page but responsive page with connected database. Inserting  data into database       and retrieving data from database is working smoothly, Also, it is showing Degree connections in Users.
 
 NOTE : Task is not fully achieved, Application is not fully working as per the task given, Partially it is done and giving the degree level between users
   
   
 
-4. Logic Implemented
+LOGIC IMPLEMENTED
 
           1.	Since we are focusing on getting the level of friends, database focus should be on users 
 
@@ -57,7 +57,7 @@ NOTE : Task is not fully achieved, Application is not fully working as per the t
 
 
 
-6.	Steps to run the project
+STEPS TO RUN THE PROJECT
 
             1.	Setup angular and node.js environment
             2.	Setup CLI
